@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TerminalSeekBar">
+        <attr name="bar_color" format="color" />
+        <attr name="bar_height" format="dimension" />
+        <attr name="thumb_height" format="dimension" />
+        <attr name="current_value" format="integer" />
+        <attr name="background_color" format="color"/>
+        <attr name="bar_margin" format="dimension"/>
+        <attr name="max_value" format="integer"/>
+    </declare-styleable>
+</resources>
