@@ -65,6 +65,7 @@ public class MainActivity extends Activity
         textViewTerminalChanged.setText(sequence);
     }
 
+
     @Override
     public void onValueChanged(int position, boolean thumbPressed)
     {
