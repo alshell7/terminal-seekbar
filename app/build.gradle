@@ -2,10 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.projects.alshell.terminalseekbar"
         minSdkVersion 14
+        //noinspection OldTargetApi
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
