@@ -13,9 +13,7 @@ import com.projects.alshell.android.TerminalAnimationType;
 import com.projects.alshell.android.TerminalChangedListener;
 import com.projects.alshell.android.TerminalSeekBar;
 import com.projects.alshell.terminalseekbar.R;
-
 import java.util.ArrayList;
-
 
 /**
  * Sample application that demonstrates the use of TerminalSeekBar.
@@ -58,7 +56,6 @@ public class MainActivity extends Activity
         terminalSeekBar.setSeekBarValueChangedListener(this); //Optional
 
     }
-
 
     @Override
     public void onTerminalChanged(Terminal terminal)
