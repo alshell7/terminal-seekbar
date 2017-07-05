@@ -3,7 +3,7 @@
 [![](http://img.shields.io/badge/build-passing-blue.svg)]()
 [![](http://img.shields.io/badge/platform-android-green.svg)](https://developer.android.com/index.html)
 [![](http://img.shields.io/badge/API-11+-brightgreen.svg)]()
-[![](http://img.shields.io/badge/Official_App_Using-FollowApp-red.svg)](https://play.google.com/store/apps/details?id=com.products.zinnox.followapp)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TerminalSeekbar-orange.svg?style=flat)](https://android-arsenal.com/details/1/5956)
 
 A smart seek bar for android with multiple junction points at random seek position.
 
@@ -92,6 +92,20 @@ public enum TerminalAnimationType
     BLINK_ACTIVE
 }
 ```
+### Demo
+
+Install the [Demo](https://github.com/alshell7/terminal-seekbar/blob/master/app-debug.apk) app on your device for a complete view on library!
+
+### Apps using library
+
+* FollowApp - [Google Play Store](https://play.google.com/store/apps/details?id=com.products.zinnox.followapp)
+
+## How to Contribute
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
 ## License
 
