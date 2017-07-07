@@ -9,7 +9,7 @@ A smart seek bar for android with multiple junction points at random seek positi
 
 <p align="left"><img src="https://github.com/alshell7/terminal-seekbar/blob/master/graphics/preview.gif"></p>
 
-## USAGE
+## Installation and Usage
 
 To use TerminalSeekBar in your layout XML, Add the library in your `Project build.gradle` :
 
@@ -84,14 +84,18 @@ terminalSeekBar.setTerminalChangedListener(new TerminalChangedListener()
 terminalSeekBar.setSeekBarValueChangedListener(this); //Optional
 ```
 #### Animations
-The animations for `Terminal` are encapsulated in `TerminalAnimationType`.
+The animations for `Terminal` are encapsulated in `TerminalAnimationType`. <br/>
+> The priority (`DEFAULT_PRIORITY_NORMAL`, `DEFAULT_PRIORITY_MEDIATE`, `DEFAULT_PRIORITY_HIGH`) of the `Terminal` describes the blinking rate of the specific `Terminal` on the seek bar.
 ```java
 public enum TerminalAnimationType
 {
     BLINK_STILL,
-    BLINK_ACTIVE
+    BLINK_ACTIVE 
 }
 ```
+`BLINK_STILL` - The Terminals are blinked only when the progress of the seek bar is being changed. <br/>
+`BLINK_ACTIVE` - The Terminals are constantly blinked even if the progress of the seek bar is not changing.
+
 ### Demo
 
 Install the [Demo](https://github.com/alshell7/terminal-seekbar/blob/master/app-debug.apk) app on your device for a complete view on library!
@@ -100,14 +104,14 @@ Install the [Demo](https://github.com/alshell7/terminal-seekbar/blob/master/app-
 
 * FollowApp - [Google Play Store](https://play.google.com/store/apps/details?id=com.products.zinnox.followapp)
 
-## How to Contribute
+### How to Contribute
 1. Fork it
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
 5. Create new Pull Request
 
-## License
+### License
 
 ```
 Copyright 2017 alshell7
